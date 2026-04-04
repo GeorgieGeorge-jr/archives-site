@@ -196,7 +196,7 @@ select {
 }
 
 .hero {
-  padding-top: clamp(3rem, 8vw, 7rem);
+  padding-top: clamp(3rem, 8vw, 4rem);
 }
 
 .hero-grid,
@@ -209,6 +209,8 @@ select {
   gap: 2rem;
   align-items: center;
 }
+
+.hero-grid{}
 
 .eyebrow-row {
   display: flex;
@@ -232,6 +234,14 @@ select {
 .live-pill i {
   color: #67ff95;
   font-size: 0.5rem;
+}
+
+.hero .mainTxt{
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 60px;
+  margin: 0;
 }
 
 .hero h1,
