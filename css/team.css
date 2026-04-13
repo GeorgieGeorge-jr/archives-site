@@ -1,0 +1,2 @@
+.team-card ul { margin: 0.8rem 0 0; padding-left: 1rem; color: var(--muted-strong); }
+.team-card li + li { margin-top: 0.35rem; }

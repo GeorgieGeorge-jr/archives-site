@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="ARCHIVES is a digital product and creative studio building premium websites, web apps, visual identities, and structured client experiences." />
+        <title>ARCHIVES — Portfolio</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkR4j4Qxqdh7lP5x9WQzFZx3V9q3vY7p5wYg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="css/base.css" />
+        <link rel="stylesheet" href="css/portfolio.css" />
+
+  </head>
+  <body>
+    <div class="site-shell">
+      <div class="noise"></div>
+      <div class="cursor-glow"></div>
+
+      <header class="site-header">
+        <div class="container nav-wrap">
+          <a href="index.html" class="brand">
+            <img src="assets/Archives - 3.PNG" alt="ARCHIVES logo" class="brand-mark" />
+            <span class="brand-copy">
+              <strong>ARCHIVES</strong>
+              <small>Digital Product &amp; Creative Studio</small>
+            </span>
+          </a>
+
+          <button type="button" class="menu-toggle" aria-label="Open navigation" aria-expanded="false">
+            <span></span><span></span><span></span>
+          </button>
+
+          <nav class="site-nav" aria-label="Primary navigation">
+            <a href="index.html">Home</a> <a href="services.html">Services</a> <a href="portfolio.html" class="active">Portfolio</a> <a href="process.html">Process</a> <a href="team.html">Team</a> <a href="contact.html">Contact</a> <a href="contact.html" class="nav-cta">Start a Project</a>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <section class="page-hero section">
+          <div class="container hero-grid">
+            <div class="reveal">
+              <div class="eyebrow-row">
+                <span class="pill">Expandable system</span>
+                <span class="pill">Filterable showcase</span>
+              </div>
+              <h1 class="display-title">A studio showcase built to <span>grow with real work.</span></h1>
+              <p class="lead">
+                The layout below is designed like a serious portfolio system: easy
+                to expand, easy to filter, and polished enough to carry live case
+                studies as ARCHIVES grows.
+              </p>
+            </div>
+            <div class="page-visual reveal reveal-delay">
+              <div class="page-hero-card glass tilt-card">
+                <span class="mini-label">Showcase logic</span>
+                <div class="stack-list">
+                  <div><div><strong>Filter by category</strong><span>Let visitors scan quickly without losing the premium feel.</span></div></div>
+                  <div><div><strong>Case-study ready</strong><span>Each card is designed to grow into a full story later.</span></div></div>
+                  <div><div><strong>Mobile-safe layout</strong><span>The grid drops cleanly on smaller screens without awkward gaps.</span></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="container">
+            <div class="portfolio-filters reveal">
+              <button class="filter-btn active" data-filter="all">All</button>
+              <button class="filter-btn" data-filter="website">Websites</button>
+              <button class="filter-btn" data-filter="dashboard">Dashboard UI</button>
+              <button class="filter-btn" data-filter="branding">Brand Identity</button>
+              <button class="filter-btn" data-filter="campaign">Campaign Visuals</button>
+            </div>
+
+            <div class="portfolio-grid">
+              <article class="project-card glass reveal tilt-card" data-category="website">
+                <div class="project-visual mockup-a"></div>
+                <div class="project-content">
+                  <span class="project-tag">Startup Website</span>
+                  <h3>Northline Ventures</h3>
+                  <p>A confident landing experience for a startup with clear messaging, service pages, and lead capture.</p>
+                  <div class="project-meta"><span>Web Design + Frontend</span><span>High-conversion layout</span></div>
+                </div>
+              </article>
+              <article class="project-card glass reveal tilt-card" data-category="dashboard">
+                <div class="project-visual mockup-b"></div>
+                <div class="project-content">
+                  <span class="project-tag">Dashboard UI</span>
+                  <h3>FlowTrack Admin Suite</h3>
+                  <p>A modern dashboard concept for operations management, analytics, and internal team workflow.</p>
+                  <div class="project-meta"><span>UI/UX + Systems</span><span>Product-style interface</span></div>
+                </div>
+              </article>
+              <article class="project-card glass reveal tilt-card" data-category="branding">
+                <div class="project-visual mockup-c"></div>
+                <div class="project-content">
+                  <span class="project-tag">Identity System</span>
+                  <h3>Aurora Personal Brand</h3>
+                  <p>A sharp visual language for a modern professional brand with social assets and presentation support.</p>
+                  <div class="project-meta"><span>Brand Strategy</span><span>Graphic direction</span></div>
+                </div>
+              </article>
+              <article class="project-card glass reveal tilt-card" data-category="campaign">
+                <div class="project-visual mockup-d"></div>
+                <div class="project-content">
+                  <span class="project-tag">Campaign Visuals</span>
+                  <h3>Launch Week Media Pack</h3>
+                  <p>A coordinated launch set for promo graphics, teaser assets, and social-ready marketing visuals.</p>
+                  <div class="project-meta"><span>Visual storytelling</span><span>Launch support</span></div>
+                </div>
+              </article>
+              <article class="project-card glass reveal tilt-card" data-category="website">
+                <div class="project-visual mockup-e"></div>
+                <div class="project-content">
+                  <span class="project-tag">Business Website</span>
+                  <h3>Studio Ledger</h3>
+                  <p>A polished services website designed to feel trustworthy, premium, and ready for discovery calls.</p>
+                  <div class="project-meta"><span>Positioning</span><span>Service architecture</span></div>
+                </div>
+              </article>
+              <article class="project-card glass reveal tilt-card" data-category="dashboard">
+                <div class="project-visual mockup-f"></div>
+                <div class="project-content">
+                  <span class="project-tag">Product Prototype</span>
+                  <h3>Beacon Workspace</h3>
+                  <p>An internal tool concept for managing projects, updates, and collaborative handoff inside one product space.</p>
+                  <div class="project-meta"><span>Systems thinking</span><span>Scalable concept</span></div>
+                </div>
+              </article>
+            </div>
+
+            <div class="case-study-note glass info-card reveal">
+              <strong>Next upgrade path</strong>
+              <p>
+                Each placeholder card here can later expand into a case-study page
+                with challenge, solution, screenshots, and measurable outcomes.
+              </p>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container footer-wrap">
+          <div>
+            <div class="footer-brand brand">
+              <img src="assets/Archives - 3.PNG" alt="ARCHIVES logo" class="brand-mark" />
+              <span class="brand-copy">
+                <strong>ARCHIVES</strong>
+                <small>Digital Product &amp; Creative Studio</small>
+              </span>
+            </div>
+            <p>
+              A coordinated studio for websites, product experiences, visual systems,
+              and structured client delivery.
+            </p>
+          </div>
+
+          <div class="footer-links">
+            <a href="services.html">Services</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="process.html">Process</a>
+            <a href="team.html">Team</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+      </footer>
+      <a class="floating-cta" href="contact.html">Start a Project</a>
+
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/portfolio.js"></script>
+  </body>
+</html>

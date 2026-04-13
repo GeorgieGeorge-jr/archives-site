@@ -1,0 +1,3 @@
+.portfolio-grid { position: relative; }
+.project-card.hidden-project { display: none; }
+.case-study-note { margin-top: 1.2rem; }
