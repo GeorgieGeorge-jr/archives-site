@@ -322,6 +322,24 @@
   .hero-visual {
     min-height: 460px;
   }
+
+  .eyebrow-row {
+  display: flex;
+  flex-direction: row;
+  gap: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 0.9rem;
+  font-size: 0.65rem;
+  color: var(--muted-strong);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.04);
+}
 }
 
 @media (max-width: 720px) {
