@@ -145,7 +145,7 @@ textarea {
 .brand-mark {
   width: 46px;
   height: 46px;
-  border-radius: 15px;
+  border-radius: 1px;
   box-shadow: 0 16px 35px rgba(124, 92, 255, 0.25);
   object-fit: cover;
 }
